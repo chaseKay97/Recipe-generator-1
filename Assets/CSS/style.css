@@ -1,0 +1,111 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-image: url(cooking.jpg);
+    background-size: cover;
+}
+
+    /* This font changes the recipe contents to be easier to read */
+    p, h6 {
+    font-family: Arial, Helvetica, sans-serif
+    }
+    
+    /* This is our styling for our NAVBAR */
+    .nav-wrapper {
+        background-color: black;
+        font-size: 150%;
+        vertical-align: middle;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    /* This is the character styling in the NAVBAR */
+        .left {
+            color: white;
+        }
+
+    /* This is styling for the Measurement Conversion Calculator header and description container */
+    #header {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 900;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(172, 172, 172);
+        background-color: black;
+        opacity: 0.9;
+        color:white
+    }
+
+    /* This is styling for all the rows */
+    .row {
+        box-sizing: border-box;
+    }
+
+    /* This is styling for the conversion metrics & results */
+    #conversion {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding: 20px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(97, 97, 97);
+        background-color: rgb(240, 253, 253);
+        opacity: 0.8;
+    }
+
+        /* This is styling for the "current value from" prompt */
+        #meal-type {
+            padding-right: 100px;
+            float: left;
+            text-align: right;
+        }
+
+        /* This is styling for the "convert-From-Values" drop down */
+        #meal-type-values {
+            float: left;
+            width: 300px;
+            padding-top: 11px;
+        }
+
+        /* This is our button column styling */
+        #buttons {
+            text-align: right;
+            padding-right: 100px;
+        }
+
+        /* This is our Convert button styling */
+        #convert {
+            color: white;
+            background-color: black;
+        }
+
+        /* This is our Reset button styling */
+        #reset {
+            color: white;
+            background-color:black;
+        }
+
+
+        /* This is our returned results field styling */
+        #resultField {
+            width: 800px;
+            padding-bottom: 30px;
+        }
+
+
+/* These rules take effect when the browser's width is either 768px or less */
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+    
+      /* The wrapper's width will be 600px */
+      .wrapper {
+        width: 100%;
+      }
+    }
